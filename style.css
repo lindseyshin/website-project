@@ -140,6 +140,12 @@ article{
     border-radius: 10px;
 }
 
+article.article2{
+    flex: 4;
+    background-color: #CB260D;
+    border-radius: 10px;
+}
+
 /* article .article1{
     flex: 4;
     background-color: #CB260D;
