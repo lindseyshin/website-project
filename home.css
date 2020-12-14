@@ -34,6 +34,10 @@ p.visit{
     font-size: 20px;
 } */
 
+ol{
+    font-size: medium;
+}
+
 img{
     width: 300px;
     align-content: center;
@@ -138,6 +142,12 @@ article{
     border-radius: 10px;
 }
 
+article.articleBlack{
+    flex: 4;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 
 p.visit{
     background-color: black;
