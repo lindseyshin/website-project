@@ -136,6 +136,12 @@ article{
     flex: 4;
     background-color: #CB260D;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -174,3 +180,7 @@ p.footer{
     text-align: center;
 }
 
+img{
+    border-radius: 10px;
+    border: 2px black solid;
+}
