@@ -180,7 +180,7 @@ p.footer{
     text-align: center;
 }
 
-img{
+.image img{
     border-radius: 10px;
     border: 2px black solid;
 }
