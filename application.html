@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lindsey Shin">
+    <meta name="description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="media/Espada-Logo-Finished.png"></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home<img class="header-img" width="70%" src="img/logo-small.png" alt=""></a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="application.html">Apply</a></li>
+        </ul>
+
+    </nav>
+    <h1>Application Form </h1>
+    <form class="form" action="comfirmation.html" method="POST">
+        <fieldset>
+            <legend>Information</legend>
+            <ul style="list-style-type: none;">
+                <li>
+                    <label for="name">First Name:</label>
+                    <input type="text" id="name" name="user.name" />
+                </li>
+                <li>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="user.lastname">
+                </li>
+                <li>
+                    <label for="phone number">Phone Number:</label>
+                    <input type="text" id="phonenumber" name="user.phonenumber" />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="user.email">
+                </li>
+
+                <li>
+                    <label for="address">Current Address:</label>
+                    <input type="text" id="address" name="user.address">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+    <form class="details" action="comfirmation.html" method="POST">
+        <fieldset>
+            <legend>Details</legend>
+            <ul style="list-style-type: none;">
+                <li>
+                    <h2 id="description">Seeking Position:</h2>
+                </li>
+                <li><input type="radio" id="hour" name="user.hour">Alarm Specialist</li>
+                <li><input type="radio" id="project" name="user.project">Security Guard</li>
+                <br>
+                <li>
+                </li>
+                <li><input type="radio" id="day" name="user.day">Specialized Bodyguard</li>
+                <li><input type="radio" id="week" name="user.week">Self Defense Instructor</li>
+                <li><input type="radio" id="month" name="user.month">Butler</li>
+                <li><input type="radio" id="chauffeur" name="user.chauffer">Chauffeur</li>
+
+                <li><label for="comments">Past Work Experience/History:</label></li>
+                <li><textarea name="comments" id="" cols="60" rows="10"></textarea></li>
+                <br>
+                <li><label for="comments">Past Employers (within the last two years):</label></li>
+                <li><textarea name="other employers" id="employers" cols="60" rows="10"></textarea></li>
+                <br>
+                <li>
+                    <h2 id="description">Education:</h2>
+                </li>
+                <li><input type="checkbox" id="Highschool" name="user.Highschool">High School Diploma</li>
+                <li><input type="checkbox" id="Bachelors" name="user.Bachelors">Bachelors Degree</li>
+                <li><input type="checkbox" id="Masters" name="user.Masters">Masters Degree</li>
+                <li><input type="checkbox" id="other" name="user.other">Other</li>
+                <br>
+                <li><label for="comments">Other Education:</label></li>
+                <li><textarea name="other education" id="education" cols="60" rows="10"></textarea></li>
+                <br>
+                <li>
+                    <h2 id="description">Military Service:</h2>
+                </li>
+                <li><input type="radio" id="basic" name="user.basic">Yes</li>
+                <li><input type="radio" id="amateur" name="user.amatuer">No</li>
+                <li><label for="comments">Please name the branch and position served:</label></li>
+                <li><textarea name="other military" id="military" cols="60" rows="10"></textarea></li>
+                <br>
+                <li>
+                    <h2 id="description">Time Availability:</h2>
+                </li>
+                <li><input type="checkbox" id="Early Morning" name="user.Morning">Early Morning (4am-10am)</li>
+                <li><input type="checkbox" id="Mid Day" name="user.Day">Mid Day (12pm-6pm)</li>
+                <li><input type="checkbox" id="Night" name="user.Night">Night (8pm-2am)</li>
+
+                <br>
+                <li>
+                    <h2 id="description">Criminal History:</h2>
+                </li>
+                <li><input type="radio" id="clean" name="user.clean">Yes</li>
+                <li><input type="radio" id="dirty" name="user.dirty">No</li>
+
+                <li>
+                    <button type="submit" class="submit-button">Submit</button>
+                </li>
+
+            </ul>
+
+
+        </fieldset>
+    </form>
+</body>
+<br>
+<footer class="footer">
+    <p style="text-align: center;">© 2020 ESPADA| All Rights Reserved</p>
+</footer>
+
+</html>
