@@ -48,6 +48,11 @@ h1{
     text-align: center;
 }
 
+button{
+    display: block;
+    margin: 0 auto;
+}
+
 form{
     margin: 0 auto;
     width: 1000px;
